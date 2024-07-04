@@ -8,11 +8,11 @@ const App = () => {
   function renderContent() {
     switch(isActive) {
       case 1:
-        return <div>This is the content for tab 1.</div>
+        return <div>This is the content for Tab 1.</div>
       case 2:
-        return <div>This is the content for tab 2.</div>
+        return <div>This is the content for Tab 2.</div>
       case 3:
-        return <div>This is the content for tab 3.</div>
+        return <div>This is the content for Tab 3.</div>
       default:
         return null;
     }
